@@ -65,23 +65,23 @@ The learning objectives for this hack will cover the following topics:
 
 ### Day 2 - Challenge 9: **[Understanding User flows Identity Experience Framework (duration 30 mins)](Student/Challenge_09.md)**
 
-- Add description content here
+- [Add description content here]
 
 ### Day 2 - Challenge 10: **[Create an Application Registration (Azure B2C) and integrate it with your application (duration 90 mins)](Student/Challenge_10.md)**
 
-- Add a bit of flare to your sign up and sign in pages by adding a custom template and colors, wiring up your User Flows to an ASPNETCORE MVC app, and use language customization to modify string values displayed to the user
+- [Add description content here]
 
 ### Day 2 - Challenge 11: **[Enrich your claims (duration 60 mins)](Student/Challenge_11.md)**
 
-- Enrich the claims that you collect about a user during the sign up process by calling out to a custom REST API
+- Enrich your claims for the user during sign in process by calling a custom REST API
 
 ### Day 2 - Challenge 12: **[Admin the B2C Tenant with MS Graph (duration 20 mins)](Student/Challenge_12.md)**
 
-- Use the MS Graph API to query your B2C tenant. Also use the Graph API to update various objects in your B2C tenant, such as policies, keys, and identity providers.
+- Get familiar and discover the potential of MS Graph API.
 
 ### Day 2 - Challenge 13: **[Monitoring and Observability (duration 30 mins)](Student/Challenge_13.md)**
 
-- Monitor your B2C tenant by combining logs and app insights logs
+- Monitor your tenant
 
 ---
 
