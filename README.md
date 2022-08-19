@@ -6,10 +6,24 @@ This hackathon will provide a deep dive experience targeted for Developers for e
 
 The learning objectives for this hack will cover the following topics:
 
-- [Add description content here]
-- [Add description content here]
-- [Add description content here]
-- Monitoring and Observability
+- Implement initial configuration of Azure Active Directory.
+- Create, configure, and manage users, groups, service principals and identities.
+- Configure and use Azure roles and Azure AD roles.
+- Understanding of various Application types for the Microsoft identity platform.
+- Understanding of OAuth 2.0 and OpenID Connect in the Microsoft identity platform.
+- Implement and configure application registrations.
+- Implement and manage external identities.
+- Understanding of Azure B2B and Azure B2C as an Identity platform.
+- Understant the difference between Single Tenant vs Multitenant identities.
+- Understant the difference between App Registration (Application Object) and Enterprise Application (Service Principal).
+- Configure scopes, permissions and conset for your App Registrations.
+- Integrate your Application with Microsoft Identity platform.
+- Get to know Microsoft Authentication Library (MSAL).
+- Configure external identity providers.
+- Enable MFA with conditional access policies.
+- Implement conditional access policy controls and assignments.
+- Monitoring and Observability.
+- Monitor and audit access/Sign-On to Azure Active Directory integrated enterprise applications.
 
 ## Prerequisites
 
