@@ -31,7 +31,7 @@ The learning objectives for this hack will cover the following topics:
   - Bring your own subscription
   - An Azure Pass provided in this hackathon
 - Azure AD Premium P2 tenant licence
-- Visual Studio Code
+- Visual Studio 2019/2022 or Visual Studio Code
 - Azure CLI
 
 ## Challenges
