@@ -16,7 +16,7 @@ $PublishFolder = "publish-" + $random
 $projectDirectoryB2B = "C:\Azure-Samples\active-directory-aspnetcore-webapp-openidconnect-v2-aspnetcore3-1-callsgraph\WebApp-OpenIDConnect-DotNet.csproj"
 
 # Login to Azure 
-# az login
+az login
 
 # Set default account subscription
 az account set --subscription $subscription
