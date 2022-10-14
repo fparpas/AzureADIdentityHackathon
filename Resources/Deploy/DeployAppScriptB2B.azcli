@@ -13,7 +13,7 @@ $random = Get-Random
 $name = "identityhackathon-b2b-" + $random
 $PublishFolder = "publish-b2b-" + $random
 # Define the Visual Studio project directory
-$projectDirectoryB2B = "C:\Azure-Samples\active-directory-aspnetcore-webapp-openidconnect-v2-aspnetcore3-1-callsgraph\WebApp-OpenIDConnect-DotNet.csproj"
+$projectPath = "C:\Azure-Samples\active-directory-aspnetcore-webapp-openidconnect-v2-aspnetcore3-1-callsgraph\WebApp-OpenIDConnect-DotNet.csproj"
 
 # Login to Azure 
 az login
@@ -39,8 +39,8 @@ az webapp create --name $name --plan $name --resource-group $resourceGroupName -
 az webapp config appsettings set --resource-group $resourceGroupName --name $name --settings WEBSITE_RUN_FROM_PACKAGE="1" AzureAd:Instance='https://login.microsoftonline.com/' AzureAd:TenantId=$HomeTenantId AzureAd:CallbackPath='/signin-oidc' AzureAd:ClientId=$AzureAdClientId AzureAd:Domain=$AzureAdDomain AzureAd:ClientSecret=$AzureAdClientSecret
 
 # Build and publish the project in local directory
-dotnet build $projectDirectoryB2B --configuration Release 
-dotnet publish $projectDirectoryB2B --configuration Release -o .\$PublishFolder
+dotnet build $projectPath --configuration Release 
+dotnet publish $projectPath --configuration Release -o .\$PublishFolder
 
 # Compress and add in zip file the published version
 Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
